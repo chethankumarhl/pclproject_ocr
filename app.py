@@ -7,10 +7,10 @@ import requests
 from flask import Flask, request, render_template
 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyANg8TrWYFz7uT2NEJYcOr0Euxr8C8XnpM")  # Replace with your actual API key
+genai.configure(api_key="")  # Replace with your actual API key
 
 # OCR.space API Key
-OCR_API_KEY = "K83604811988957"  # Replace with your OCR.space API key
+OCR_API_KEY =   # Replace with your OCR.space API key
 
 app = Flask(__name__)
 
