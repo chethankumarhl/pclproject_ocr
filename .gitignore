@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+.env.*
+
+# Flask instance folder
+instance/
+
+# Flask cache and session files
+*.log
+*.pid
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# __init__.py backup
+init.py~
+
+# Compiled files
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Heroku
+*.log
+*.bak
+
+# Deployment files
+*.egg-info/
+dist/
+build/
