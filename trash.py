@@ -6,7 +6,7 @@ import numpy as np
 from flask import Flask, request, render_template
 
 # Configure API Key
-genai.configure(api_key="AIzaSyANg8TrWYFz7uT2NEJYcOr0Euxr8C8XnpM")  # Replace with your actual API key
+genai.configure(api_key="your api key")  # Replace with your actual API key
 
 app = Flask(__name__)
 
